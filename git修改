@@ -1,0 +1,10 @@
+去掉合并头 git reset --hard+login/分支名   -》add-》commit
+merge继承时跳转  ：wq
+远程比电脑新是用git pull # 从远程仓库，拉取当前分支最新的代码，保持当前分支的代码和远程分支代码一致git pull
+# 删除远程仓库中，制定名称的远程分支
+git push 远程仓库名称 --delete 远程分支名称# 示例
+git push origin --delete pay
+
+
+git push -u origin 新分支名称(建新分支)
+git remote show 远程仓库名称
