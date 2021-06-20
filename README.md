@@ -893,15 +893,29 @@ git push origin --delete pay
 # 总结
 
 - 能够掌握 `Git` 中基本命令的使用
+
   - `git init`
   - `git add .`
   - `git commit –m "提交消息"` 
   - `git status` 和 `git status -s`
+
 - 能够使用 `Github` 创建和维护远程仓库
+
   - 能够配置 `Github` 的 `SSH` 访问
   - 能够将本地仓库上传到 `Github`
+
 - 能够掌握 `Git` 分支的基本使用
+
   - `git checkout -b 新分支名称`
+
   - `git push -u origin 新分支名称`
+
   - `git checkout 分支名称`
+
   - `git branch`
+
+- ### 更换仓库地址
+
+  # ***git  remote rm origin---删除已经配置的网络仓库地址
+
+  ### git remote add origin ssh地址
