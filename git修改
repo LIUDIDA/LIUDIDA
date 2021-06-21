@@ -8,3 +8,4 @@ git push origin --delete pay
 
 git push -u origin 新分支名称(建新分支)
 git remote show 远程仓库名称
+git rebase --sort去掉合并头
